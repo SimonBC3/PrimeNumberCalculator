@@ -24,4 +24,4 @@ while(i<max) {
     i++
 }
 
-fs.writeFile("numbers.txt", primeNumbers.toString(), (err) => {})
+fs.writeFile("./numbers.txt", primeNumbers.toString(), (err) => {})
